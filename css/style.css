@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+/* css variables */
+@import url('variables/variables.css');
+
+
+body{
+    background: #f3f3f3;
+    font-family: 'Poppins';
+}
+.brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-item{
+    margin-right: 1.75rem;
+}
+.navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+.navbar{
+    padding: 0.75rem 3.75rem; /*top-bottom and left-right*/
+}
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 1rem;
+    color: var(--title-color);
+}
+.hero-main{
+    padding: 6rem 0;
+}
+a.active{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.display-5{
+    font-weight: bold;
+    line-height: 1.20em;
+    padding-top: 29%;
+}
+.display-6{
+    font-weight: bold;
+    display: block;
+    line-height: 1.20em;
+    letter-spacing: 15px;
+}
+.btn-primary{
+    width: 30%;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+    background-clip: padding-box;
+    transition: .6s ease;
+    color: whitesmoke;
+    background: var(--gradient-color);
+    box-shadow: var(--box-shadow);
+}
+.btn-primary:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+.banner-img > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+.about-area{
+    padding: 8rem 5rem;
+}
+.mission{
+    padding: 10rem 5rem;
+}
+.vision{
+    padding: 2rem 5rem;
+}
+.services-offer, .contactSection{
+    padding: 9rem 5rem;
+}
+.form-group{
+    padding: 1rem 5rem;
+}
+.lead{
+    color: var(--text-color);
+}
+.service-area{
+    padding: 7rem 2rem;
+}
+.services-title{
+    padding: 0 14rem;
+}
+.services-title h1{
+    font-size: 35px;
+}
+.services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: .75rem 0;
+    margin: 1rem .5rem;
+    width: 16rem;
+    height: 27rem;
+    transition: box-shadow .7s ease;
+}
+.services:hover{
+    box-shadow: var(--box-shadow);
+}
+.team-title p{
+    padding: 1rem 7rem;
+}
+.team-area .team{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+.team-img{
+    padding: 2rem;
+}
+.team-desc{
+    padding-top: 2rem;
+}
+.team-desc p{
+    font-size: 15px;
+}
+.owl-carousel .owl-item{
+    display:flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+.owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+.email-us-area .email{
+    background: var(--gradient-color);
+    padding: 11rem 0;
+    margin: 3rem auto;
+}
+.email-title h4{
+    font-size: normal 600 30px/30px;
+    color: whitesmoke;
+}
+.email-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+.input-text input{
+    width: 400px;
+    padding: .75rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+}
+form .input-text input::placeholder{
+    color: whitesmoke;
+}
+.btn-submit button{
+    background: whitesmoke;
+    color: black;
+    padding: .7rem 2rem;
+    border: 1px solid transparent;
+}
+.footer-area{
+    padding: 5rem 0;
+    background: var(--border-color);
+}
+.social h5{
+    font: normal 500 23px/30px;
+}
+.social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+.social a:hover > i{
+    color: var(--primary-color);
+}
+.fa-check-circle{
+    color: green;
+}
